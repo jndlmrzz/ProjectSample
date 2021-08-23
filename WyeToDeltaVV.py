@@ -11,7 +11,7 @@ def deltaToWye(ra, rb, rc):
     r3  = (ra * rb) / denominator
     
     return [r1, r2, r3]
-    
+# Sample Git
 
 def wyeToDelta(r1, r2, r3):
     numerator = (r1 * r2) + (r2 * r3) + (r3 * r1)
